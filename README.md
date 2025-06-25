@@ -25,5 +25,25 @@ A Flutter application that displays film characters with their details and quote
 2. Install dependencies:
    ```sh
    flutter pub get
+   
+3. Run the app:
+    flutter run
 
-flutter run
+Project Structure
+
+lib/
+  business_logic/: BLoC, Cubit, and state management
+  data/: Models, repositories, and web services
+  presentation/: Screens and widgets
+  constants/: App-wide constants
+  app_router.dart: Navigation and routing
+
+
+Screenshots
+  Add screenshots here to showcase the app UI.
+
+Contributing
+  Contributions and suggestions are welcome! Please open an Issue or Pull Request.
+
+License
+  This project is for educational purposes and not intended for commercial use.
