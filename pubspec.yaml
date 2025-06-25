@@ -1,0 +1,31 @@
+name: film_character_app_with_bloc_api
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+dependencies:
+  animated_text_kit: ^4.2.3
+  cupertino_icons: ^1.0.8
+  device_preview: ^1.2.0
+  dio: ^5.8.0+1
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_offline: ^5.0.0
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/saadi.png
+    - assets/animations/Animation - 1750347563563.gif
+    - assets/images/undraw_broadcast_gyxl.png
